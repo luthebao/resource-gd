@@ -83,7 +83,7 @@ if False:
 if True:
     for folder in os.listdir("./bullet"):
         path_dir = f"./bullet/{folder}"
-        folders = ["preshoot", "blass", "bullet"]
+        folders = ["preshoot", "blast", "bullet"]
         for name in folders:
             if not os.path.exists(os.path.join(path_dir, name)):
                 # If it doesn't exist, create it
