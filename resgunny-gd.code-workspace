@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "files.autoSave": "afterDelay",
+        "editor.detectIndentation": false,
+        "git.ignoreLimitWarning": true
+    }
+}
