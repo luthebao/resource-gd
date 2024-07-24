@@ -88,6 +88,7 @@ if True:
             if not os.path.exists(os.path.join(path_dir, name)):
                 # If it doesn't exist, create it
                 os.makedirs(os.path.join(path_dir, name))
+                # os.removedirs(os.path.join(path_dir, name))
                 ConsoleLog(f"Directory {folder} / {name} created successfully.", "blue")
             else:
                 print(f"Directory {folder} / {name} already exists.")
